@@ -379,6 +379,32 @@
       .ab-content button:hover{
         background-color:#4882ca;
       }
+      @media (max-width: 768px) {
+  .ab-test {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .ab-content {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  #ab-image {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3; /* Giữ tỉ lệ khung hình */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
   </style>
 </head>
 
