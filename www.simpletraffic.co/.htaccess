@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Chặn các bot phổ biến theo User-Agent
+RewriteCond %{HTTP_USER_AGENT} ^.*(bot|crawl|spider|curl|wget|python|scrapy|ahrefs|mj12bot|semrush).* [NC]
+RewriteRule .* - [F,L]
+
+# Chặn nếu không có HTTP_REFERER
+RewriteCond %{HTTP_REFERER} ^$
+RewriteRule .* - [F,L]
+
+# Chặn nếu không có trình duyệt (User-Agent bị trống)
+RewriteCond %{HTTP_USER_AGENT} ^$
+RewriteRule .* - [F,L]

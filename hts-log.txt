@@ -1,0 +1,30 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 28 May 2025 11:27:51 at https://www.simpletraffic.co/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.simpletraffic.co/ -%L https://www.simpletraffic.co/ -O1 "C:\Users\ADmin\Documents\fdsfdsf" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:27:51	Error: 	Could not include URL list: https://www.simpletraffic.co/
+11:28:22	Warning: 	File not parsed, looks like binary: https://www.simpletraffic.co/front/assets/vendor/font-awesome/webfonts/fa-regular-400.woff2
+11:28:22	Warning: 	File not parsed, looks like binary: https://www.simpletraffic.co/front/assets/vendor/font-awesome/webfonts/fa-brands-400.woff2
+11:28:22	Warning: 	File not parsed, looks like binary: https://www.simpletraffic.co/front/assets/vendor/font-awesome/webfonts/fa-solid-900.woff2
+11:28:32	Warning: 	File not parsed, looks like binary: https://www.simpletraffic.co/images/background5.webp
+11:28:32	Warning: 	File not parsed, looks like binary: https://www.simpletraffic.co/images/review1.webp
+11:28:49	Warning: 	Moved Permanently for www.simpletraffic.co/robots.txt
+11:28:49	Warning: 	Redirected link is identical because of 'URL Hack' option: www.simpletraffic.co/robots.txt and https://www.simpletraffic.co/robots.txt
+11:28:49	Warning: 	Warning moved treated for www.simpletraffic.co/robots.txt (real one is https://www.simpletraffic.co/robots.txt)
+11:28:49	Warning: 	Moved Permanently for www.simpletraffic.co/POST/
+11:28:49	Warning: 	Redirected link is identical because of 'URL Hack' option: www.simpletraffic.co/POST/ and https://www.simpletraffic.co/POST/
+11:28:49	Warning: 	File has moved from www.simpletraffic.co/POST/ to https://www.simpletraffic.co/POST/
+11:28:49	Error: 	"Not Found" (404) at link https://www.simpletraffic.co/cdnjs.cloudflare.com (from https://www.simpletraffic.co/order)
+11:28:49	Warning: 	Moved Permanently for www.simpletraffic.co/document.location/
+11:28:49	Warning: 	Redirected link is identical because of 'URL Hack' option: www.simpletraffic.co/document.location/ and https://www.simpletraffic.co/document.location/
+11:28:49	Warning: 	File has moved from www.simpletraffic.co/document.location/ to https://www.simpletraffic.co/document.location/
+11:28:49	Warning: 	Moved Permanently for www.simpletraffic.co/GET/
+11:28:49	Warning: 	Redirected link is identical because of 'URL Hack' option: www.simpletraffic.co/GET/ and https://www.simpletraffic.co/GET/
+11:28:49	Warning: 	File has moved from www.simpletraffic.co/GET/ to https://www.simpletraffic.co/GET/
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 3 seconds : 143 links scanned, 137 files written (23354471 bytes overall) [18700080 bytes received at 296826 bytes/sec], 6963006 bytes transferred using HTTP compression in 98 files, ratio 30%, 10.5 requests per connection
+(2 errors, 17 warnings, 0 messages)
